@@ -11,6 +11,7 @@ I've compiled the solutions to all of all 10 levels on the [SQLZOO Tutoral](http
 7. [More JOIN](#more-join)
 8. [Using NULL](#using-null)
 9. [Self JOIN](#self-join)
+10.[SELECT Names](#select-names)
 
 ## SELECT basics
 Some simple queries to get you started
@@ -672,4 +673,15 @@ WHERE stopa.name = 'Craiglockhart'
 	AND stopd.name = 'Sighthill'
 	AND stopb.name = stopc.name
 ORDER BY LENGTH(a.num), b.num, stopb.name, LENGTH(c.num), d.num;
+
 ```
+
+## SELECT Names
+
+1.
+'''sql
+SELECT name FROM world
+WHERE name LIKE 'Y%'
+'''
+
+
