@@ -11,7 +11,7 @@ I've compiled the solutions to all of all 10 levels on the [SQLZOO Tutoral](http
 7. [More JOIN](#more-join)
 8. [Using NULL](#using-null)
 9. [Self JOIN](#self-join)
-10.[SELECT Names](#select-names)
+10. [SELECT names](#select-names)
 
 ## SELECT basics
 Some simple queries to get you started
@@ -676,12 +676,12 @@ ORDER BY LENGTH(a.num), b.num, stopb.name, LENGTH(c.num), d.num;
 
 ```
 
-## SELECT Names
+## SELECT names
 
 1.
-'''sql
+```sql
 SELECT name FROM world
-WHERE name LIKE 'Y%'
-'''
+WHERE name LIKE 'Y%';
+```
 
 
